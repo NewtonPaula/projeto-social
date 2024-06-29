@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100vw;
+}
+a{
+    display: block;
+    padding: 20px;
+    background-color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: antiquewhite;
+}
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+a:hover{
+    background-color: rgba(201, 8, 8, 0.938);
+}

@@ -27,3 +27,36 @@ section#telefone{
     background-color: blue;
     background: url("../imagens/frame-iphone.png") no-repeat;
 }
+
+#tela-telefone{
+    position: relative;
+    top: 62px;
+    left: 17px;
+    width: 214px;
+    height: 377px;
+}
+#redes>form{
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+.imagens-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+.imagens-logo:hover{
+    width: 60px;
+    height: 60px;
+    transform: translate(-5px -5px);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    transition: .3s;
+}
+.imagens-tela{
+    background-size: cover;
+}
